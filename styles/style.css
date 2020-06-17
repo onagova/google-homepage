@@ -6,6 +6,34 @@ a {
     text-decoration: none;
 }
 
+nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 18px;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 132px;
+    padding: 16px 32px;
+}
+
+nav a {
+    color: rgb(44, 44, 44);
+    font-size: 12px;
+}
+
+.apps-icon {
+    color: rgb(112, 112, 112);
+}
+
+.sign-in-button {
+    background-color: #4387fd;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
 .logo {
     display: block;
     margin: 0 auto 24px auto;
