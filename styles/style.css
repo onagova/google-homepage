@@ -16,6 +16,12 @@ nav {
     padding: 16px 32px;
 }
 
+@media (max-height: 768px) {
+    nav {
+        margin-bottom: 92px;
+    }
+}
+
 nav a {
     color: rgb(44, 44, 44);
     font-size: 12px;
@@ -80,4 +86,39 @@ nav a {
 
 .language-options a {
     color: #1a0dab;
+}
+
+footer {
+    background-color: #f0f0f0;
+    color: #5F6368;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    font-size: 14px;
+
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer a {
+    color: inherit;
+}
+
+.location {
+    border-bottom: 1px solid #e4e4e4;
+    padding: 12px 32px;
+}
+
+.footer-link-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 32px;
+}
+
+.footer-link-group div {
+    display: flex;
+}
+
+.footer-link-group div a:not(:last-child) {
+    margin-right: 24px;
 }
